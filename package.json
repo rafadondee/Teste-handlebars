@@ -1,0 +1,14 @@
+{
+  "name": "seu-projeto",
+  "version": "1.0.0",
+  "description": "Uma aplicação básica usando Express e Handlebars",
+  "main": "app.js", 
+  "scripts": {
+    "start": "nodemon ./home.js localhost 3000" 
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "nodemon": "^3.1.7"
+  }
+}
