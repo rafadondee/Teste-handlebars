@@ -1,2 +1,19 @@
-<h1>Cade meu açaí????</h1>
+<h1>Tropa do açaí</h1>
 <p>A pessoa que quer açaí é: {{user.name}},<br> tem {{user.age}} anos de idade<br> e seu email é {{user.email}}</p>
+
+{{#if approved}}
+
+  <p>Parabéns, você foi cadastrado!</p>
+
+{{else}}
+  <p>Deu ruim! Dados incorretos </p>
+{{/if}}
+
+{{#if auth}}
+
+<p>
+Você está autenticado, <a href="/peixe">clique aqui</a> para acessar a área de hóspedes.
+
+
+</p>
+{{/if}}
